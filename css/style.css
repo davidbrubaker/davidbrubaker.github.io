@@ -1,0 +1,165 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+	*:before,
+	*:after {
+	  -webkit-box-sizing: border-box;
+	     -moz-box-sizing: border-box;
+	          box-sizing: border-box;
+	}
+
+body {
+	-webkit-font-smoothing: antialiased;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 5em;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+h3,li {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	color: green;
+	font-weight: 700;
+}
+
+.pull-right {
+	float: right;
+}
+
+.pull-left {
+	float: left;
+}
+
+.picture {
+	background: url(../img/davidBW.jpg) #eee no-repeat center center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: block;
+ 	width: 100%;
+  	height: auto;
+}
+
+.pad-container {
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+.left-box {
+	border-right: solid 1px #aaa;
+	padding-right: 2em;
+}
+
+.right-box {
+	padding-left: 2em;
+}
+
+.text-center {
+	text-align: center;
+}
+
+span {
+	color: #888;
+}
+
+.vertical {
+	vertical-align: middle;
+}
+
+ul,li {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+hr {
+	margin: 0;
+	padding: 0;
+	background: #888;
+}
+
+.items {
+	list-style: none;
+	font-size: 1.5em;
+}
+
+.title {
+	font-weight: 400;
+	font-size: 1.75em;
+}
+
+.left-text {
+	font-weight: 400;
+	font-size: 1.75em;
+}
+
+.p {
+	margin: .25em auto;
+}
+
+
+img {
+	vertical-align: middle;
+}
+
+.david {
+	max-height: 15em;
+	margin: auto auto 1em;
+	border-radius: 50%;
+	display: block;
+  	max-width: 100%;
+  	margin-bottom: 1em;
+}
+
+footer {
+	font-size: .75em;
+	color: #bbb;
+	padding: .75em;
+}
+
+@media (max-width: 768px) {
+	.left-box {
+		border-right: none;
+		padding-right: 0;
+	}
+
+	.pull-right {
+		float: none;
+	}
+
+	.right-box {
+		padding-left: 0;
+		margin-top: 2em;
+		padding-top: 1em;
+		border-top: 1px solid #aaa;
+		text-align: center;
+	}
+
+	.pad-container {
+		padding-bottom: 2em;
+	}
+
+}

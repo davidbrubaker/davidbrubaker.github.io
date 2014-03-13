@@ -1,4 +1,4 @@
-personalSite
-============
+davidbrubaker.github.io
+=======================
 
-My personal website.
+personal site for PGA member David Brubaker

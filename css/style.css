@@ -203,4 +203,10 @@ footer {
 		margin-top: 4em;
 	}
 
+	a, a > i {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    transition: none !important;
+}
+
 }

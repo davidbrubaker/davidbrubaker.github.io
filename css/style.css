@@ -55,10 +55,14 @@ a:hover {
 a>i:hover {
 	text-decoration: none;
 	color: orange;
-	
+
 	-webkit-transform: rotateZ(360deg);
     -moz-transform: rotateZ(360deg);
     transform: rotateZ(360deg);
+}
+
+a>i:active {
+	color: orange;
 }
 
 .icon {

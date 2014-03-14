@@ -37,7 +37,7 @@ a, a > i {
 	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
 	color: #222;
-	webkit-transition: color 250 ease;
+	webkit-transition: color 250ms ease;
     -moz-transition: color 250ms ease;
     -o-transition: color 250ms ease;
     transition: color 250ms ease;

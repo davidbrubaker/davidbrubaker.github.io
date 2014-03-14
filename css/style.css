@@ -10,40 +10,61 @@
 	          box-sizing: border-box;
 	}
 
-body {
+body,h1,h2 {
 	-webkit-font-smoothing: antialiased;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #222;
+}
+
+h1,h2 {
+	margin: 0 auto;
 }
 
 h1 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 500;
-	font-size: 5em;
+	font-weight: 400;
+	font-size: 2em;
 }
 
 h2 {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
+	color: #888;
+	margin-bottom: .5em;
+	font-size: 1.5em;
 }
 
-h3,li {
+a, a > i {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-}
-
-p {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-}
-
-a {
 	text-decoration: none;
-	color: black;
+	color: #222;
+	webkit-transition: color 250 ease;
+    -moz-transition: color 250ms ease;
+    -o-transition: color 250ms ease;
+    transition: color 250ms ease;
+
+    -webkit-transition: -webkit-transform 0.65s ease-out;
+    -moz-transition: -moz-transform 0.65s ease-out;
+    transition: transform 0.65s ease-out;
 }
 
 a:hover {
 	text-decoration: none;
 	color: green;
-	font-weight: 700;
+}
+
+a>i:hover {
+	text-decoration: none;
+	color: orange;
+	
+	-webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+.icon {
+	font-size: 1.5em;
+	color: green;
+	padding-right: .25em;
 }
 
 .pull-right {
@@ -82,7 +103,7 @@ a:hover {
 	text-align: center;
 }
 
-span {
+span, span > a {
 	color: #888;
 }
 
@@ -91,6 +112,8 @@ span {
 }
 
 ul,li {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 	margin-left: 0;
 	padding-left: 0;
 }
@@ -107,16 +130,14 @@ hr {
 }
 
 .title {
-	font-weight: 400;
-	font-size: 1.75em;
-}
-
-.left-text {
+	color: #222;
 	font-weight: 400;
 	font-size: 1.75em;
 }
 
 .p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 	margin: .25em auto;
 }
 
@@ -140,6 +161,17 @@ footer {
 	padding: .75em;
 }
 
+
+
+
+
+@media (max-width: 999px) {
+	.icon {
+		font-size: 2.25em;
+		padding-right: .4em;
+	}
+}
+
 @media (max-width: 768px) {
 	.left-box {
 		border-right: none;
@@ -152,14 +184,19 @@ footer {
 
 	.right-box {
 		padding-left: 0;
-		margin-top: 2em;
-		padding-top: 1em;
+		margin-top: 4em;
+		padding-bottom: 1em;
 		border-top: 1px solid #aaa;
 		text-align: center;
 	}
 
 	.pad-container {
+		padding-top: 2.5em;
 		padding-bottom: 2em;
+	}
+
+	.pad-up {
+		margin-top: 4em;
 	}
 
 }

@@ -91,7 +91,6 @@ a>i:active {
 
 .pad-container {
 	padding-top: 5em;
-	padding-bottom: 5em;
 }
 
 .left-box {
@@ -195,8 +194,7 @@ footer {
 	}
 
 	.pad-container {
-		padding-top: 2.5em;
-		padding-bottom: 2em;
+		padding-top: 2em;
 	}
 
 	.pad-up {

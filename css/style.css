@@ -174,11 +174,7 @@ footer {
 }
 
 .philosophy {
-	border-radius: 3px;
-	border:1.5px solid #888;
-	padding:.5em;
-	margin: 3em auto;
-	width: 40%;
+	margin: 3em .5em;
 }
 
 
@@ -186,6 +182,11 @@ footer {
 	display: block;
 	font-weight: 400;
 	color:green;
+	border-radius: 3px;
+	border:1.5px solid #888;
+	padding:.5em;
+	margin: 3em auto;
+	width: 40%;
 }
 
 @media (max-width: 999px) {
@@ -194,7 +195,7 @@ footer {
 		padding-right: .4em;
 	}
 
-	.philosophy {
+	.philosophy-link {
 		width: 60%;
 	}
 }
@@ -225,9 +226,8 @@ footer {
 		margin-top: 4em;
 	}
 
-	.philosophy {
+	.philosophy-link {
 		width: 100%;
-		margin: 3em .5em;
 	}
 
 	a, a > i {

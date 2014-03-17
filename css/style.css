@@ -195,7 +195,7 @@ footer {
     transition: background 500ms ease, text-shadow 500ms ease, color 500ms ease;
 }
 
-.philosophy-link:hover {
+.philosophy-link:hover,.philosophy-link:active {
 	text-shadow: 0 0 0.2em #ddd;
     background: lightgreen;
     color: #fff;    

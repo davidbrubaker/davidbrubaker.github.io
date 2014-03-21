@@ -94,10 +94,6 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 	          box-sizing: border-box;
 	}
 
-body {
-	margin-top: .5em;
-}
-
 body,h1,h2 {
 	-webkit-font-smoothing: antialiased;
 	font-family: 'Open Sans', sans-serif;

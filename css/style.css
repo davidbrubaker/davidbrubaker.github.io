@@ -249,4 +249,9 @@ footer {
     transition: none !important;
 }
 
+	.quote-icon {
+		font-size: 2em;
+		color: green;
+		padding-right: .25em;
+	}
 }

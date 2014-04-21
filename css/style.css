@@ -96,15 +96,15 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 	          box-sizing: border-box;
 	}
 
-body,h1,h2 {
+body,h1,h2,h3 {
 	-webkit-font-smoothing: antialiased;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.004); /* font smoothing hack */
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	color: #222;
+	color: #333;
 }
 
-h1,h2 {
+h1,h2,h3 {
 	margin: 0 auto;
 }
 
@@ -116,9 +116,18 @@ h1 {
 h2 {
 	font-weight: 300;
 	color: #888;
-	margin-bottom: .5em;
 	font-size: 1.5em;
 }
+
+h3 {
+	margin-bottom: .5em;
+}
+
+	h3 > a{
+		font-weight: 300;
+		color: #888;
+		font-size: 1.3em;
+	}
 
 a, a > i {
 	font-family: 'Open Sans', sans-serif;
@@ -130,19 +139,19 @@ a, a > i {
             transition: color 250ms ease;
 }
 
-a:hover {
-	text-decoration: none;
-	color: green;
-}
+	a:hover {
+		text-decoration: none;
+		color: green;
+	}
 
-a>i:hover {
-	text-decoration: none;
-	color: orange;
-}
+	a>i:hover {
+		text-decoration: none;
+		color: orange;
+	}
 
-a>i:active {
-	color: orange;
-}
+	a>i:active {
+		color: orange;
+	}
 
 
 .bar {
@@ -163,12 +172,8 @@ a>i:active {
 	font-family:'Open Sans', sans-serif;
 	font-weight:300;
 	font-size:1.5em;
-	width: 50%;
+	width: 45%;
 	margin: 0 auto 2em;
-}
-
-.quote {
-	margin:0 .75em 1em;
 }
 
 .icon {
@@ -354,5 +359,9 @@ footer {
 		font-size: 2em;
 		color: green;
 		padding-right: .25em;
+	}
+
+	.quote-block {
+		margin-bottom:  1em;
 	}
 }
